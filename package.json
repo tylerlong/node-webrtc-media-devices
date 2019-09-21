@@ -1,0 +1,25 @@
+{
+  "name": "node-webrtc-media-devices",
+  "version": "0.1.2",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "release": "babel src --out-dir dist --source-maps",
+    "prepublishOnly": "yarn release"
+  },
+  "dependencies": {
+    "node-webrtc-audio-source": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/register": "^7.6.0",
+    "husky": "^3.0.5",
+    "standard": "^14.3.1",
+    "yarn-upgrade-all": "^0.5.2"
+  },
+  "peerDependencies": {
+    "wrtc": "^0.4.2"
+  }
+}
