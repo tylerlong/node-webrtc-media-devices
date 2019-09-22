@@ -1,6 +1,6 @@
 {
   "name": "node-webrtc-media-devices",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "prepublishOnly": "yarn release"
   },
   "dependencies": {
-    "node-webrtc-audio-source": "^0.3.0"
+    "node-webrtc-audio-source": "^0.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",
