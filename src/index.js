@@ -4,7 +4,7 @@ import RTCAudioSource from 'node-webrtc-audio-source'
 const rtcAudioSource = new RTCAudioSource()
 
 const mediaDevices = {
-  getUserMedia: constraints => {
+  getUserMedia: async constraints => {
     if (constraints.video) {
       throw new Error('video support not implemented')
     }
